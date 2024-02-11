@@ -6,10 +6,10 @@ export default function TotalBet() {
   return (
     <>
     <div className='flex justify-between items-start text-white text-xs px-2 py-3 mb-5'>
-    <h1 className='font-medium'>Total Odds</h1>
+    <h1 className='font-medium text-sm'>Total Odds</h1>
     <div>
         <p className="text-end font-medium">145.14</p>
-        <p className='lowercase'>Odds May change</p>
+        <p className='lowercase '>Odds May change</p>
     </div>
     </div>
 

@@ -1,4 +1,5 @@
 import { FaBars, FaHouse, FaTrophy, FaXbox } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 
 export default function TopNav() {
   return (
@@ -19,10 +20,10 @@ export default function TopNav() {
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1 text-white uppercase max-w-2xl overflow-x-auto text-xs">
           <li>
-            <a className="flex space-x-1">
+            <Link to="/" className="flex space-x-1">
               <FaHouse/>
               <span>Home</span>
-            </a>
+            </Link>
           </li>
           <li>
             <a className="flex space-x-1">
